@@ -16,6 +16,7 @@
 
 body{
 	background-image: url('images/Water.jpg');
-	color: white;
+	color: black;
+	font-weight: 900; 
 }
 
