@@ -11,7 +11,7 @@ class FriendshipsController < ApplicationController
 				format.html { redirect_to users_path, notice: "Friendship created!"}
 			end
 
-		end
+	end
 
 		def accept
 			@friendship.accept_friendship
@@ -19,8 +19,8 @@ class FriendshipsController < ApplicationController
 			@friendship.create create_activity key:'friendship.accepted', owner: @friendship.friend, recipient: @friendship.user
 			respond_to do |format|
 				format.html {redirect_to users_path, notice: "Friendship Accepted!"}
+			end
 		end
-	end
 
 
 		def destroy
@@ -41,5 +41,6 @@ class FriendshipsController < ApplicationController
 
 			def set_user
 				@user = User.find(params[:user_id])
+			end
 
-	end
+end
