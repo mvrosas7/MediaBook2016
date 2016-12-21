@@ -13,13 +13,5 @@
  *= require_tree .
  *= require_self
  */
-body{
-	background: url("Water.jpg") no-repeat bottom center scroll;
-	-webkit-background-size: cover;
-   -moz-background-size: cover;
-   background-size: cover;
-   -o-background-size: cover;
-	font-weight: 900; 
-	color: white;
-}
+
 
