@@ -14,7 +14,7 @@
  *= require_self
  */
 body{
-	background: url(image-path("Water.jpg"));
+	background: gray;
 	font-weight: 900; 
 }
 
