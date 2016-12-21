@@ -27,7 +27,7 @@ class FriendshipsController < ApplicationController
 
 			@friendship.destroy
 			respond_to do |format|
-				format.html {redirect_to users_path. notice: "Friendship destroyed!"}
+				format.html {redirect_to users_path, notice: "Friendship destroyed!"}
 			end
 
 		end
